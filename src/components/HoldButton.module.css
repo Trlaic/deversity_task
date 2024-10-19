@@ -1,0 +1,18 @@
+.holdButton {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.holdButton:hover {
+    background-color: #3477c4;
+}
+
+.holdButton:active {
+    background-color: #1d4c82;
+}

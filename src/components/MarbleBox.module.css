@@ -1,0 +1,31 @@
+.marbleBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.marbleCount {
+    font-size: 18px;
+    margin: 0 10px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+    background-color: #ff1a1a;
+}
